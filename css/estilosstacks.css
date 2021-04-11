@@ -34,7 +34,10 @@
 }
 
 body{
-       
+    /*background-image: url(../STACK.gif);*/
+    background-image: url(https://media2.giphy.com/media/lbcLMX9B6sTsGjUmS3/giphy.gif);
+    background-size: cover;
+    background-position: fixed;
 }
 main{            
     padding-right: 10px;
