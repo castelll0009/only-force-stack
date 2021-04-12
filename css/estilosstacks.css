@@ -3,12 +3,14 @@
 	color: #0093C6;
 }
 #myVideo {
- position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  z-index: -20;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -20;
 }
 .color-grisclaro{
 	color: #CBCDD0;
@@ -269,6 +271,7 @@ select {
 /* Informacion boton play videos*/
 
 #myVideo {
+    display: none;
     position: fixed;
      right: 0;
      bottom: 0;
