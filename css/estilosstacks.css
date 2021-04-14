@@ -39,7 +39,8 @@ body{
     /*background-image: url(../STACK.gif);*/
     /*background-image: url(https://media2.giphy.com/media/lbcLMX9B6sTsGjUmS3/giphy.gif);*/
     /*background-image: url(https://images.unsplash.com/photo-1586899028174-e7098604235b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bmV0ZmxpeHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);    */
-    background-image: url(https://media.thestar.com.my/Prod/2D217838-3AF8-4CE3-BF9C-EAF21CCC5FE5);                      
+    background-image: url(https://media.thestar.com.my/Prod/2D217838-3AF8-4CE3-BF9C-EAF21CCC5FE5);     
+    background-size: cover;    
 }
 main{            
     padding-right: 10px;
@@ -323,9 +324,13 @@ select {
     padding: 1px;
   }  
 
+  
 /* resolucion para android */
 @media screen and (max-width: 700px){    
-    
+    .body{
+        background: repeat;
+    }
+
     .nav-barra-superior{
         display: block;        
     }
