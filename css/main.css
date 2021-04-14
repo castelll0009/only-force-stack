@@ -100,7 +100,7 @@ img{
 .color-azul{
 	color: #368ABF;
 }
-}
+
 .alinear-vertical-arriba{
 	vertical-align: top;
 }
@@ -193,13 +193,12 @@ a{
 }
 
 #myBtn{
-  /*background: #ffff;*/*
+  /*background: #ffff;*/
   color: black;
 }
 .img-tam-marca{   	 
   width: 50%;    
-  position: relative;
-  align-content: ;
+  position: relative;  
   /*border: 3px solid green;*/
   padding: 1px;
 }
@@ -213,7 +212,7 @@ a{
 	margin-left: 50em;
 }
 
-..padding-corto{
+.padding-corto{
 	padding: 8px 6px;	
 }
 
