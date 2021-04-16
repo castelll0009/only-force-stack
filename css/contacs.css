@@ -1,0 +1,22 @@
+.container-contacs{
+    background-image: url(https://p1.pxfuel.com/preview/893/1020/960/contact-us-contact-email-phone.jpg);                                  
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black ;
+}
+
+.container-gps{    
+    border: cornflowerblue;                    
+    text-align: center;    
+    justify-content: center;  
+}
+.container-gps ,iframe{     
+    border-radius: 20px;           
+    box-shadow: 0px 0px 30px -5px;	     
+}
+
+.nav-menu-inferior{
+    
+}
+
